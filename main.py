@@ -1,10 +1,13 @@
-import argparse
-from scanner import record_lookup
+import argparse	
+from scanner import record_lookup, subdomain_enum
 
 def main():
-    parser = argparse.ArgumentParser(description="DNS Recon Tool")
+    parser = argparse.ArgumentParser(description="DNS Recon Tool by Ali")
     parser.add_argument("-d", "--domain", help="Target domain", required=True)
     parser.add_argument("--records", action="store_true", help="Extract DNS records")
+    parser.add_argument("--enum", action="store_true", help="Enumerate subdomains")
+    parser.add_argument("--wordlist", help="Path to subdomain wordlist")
+
     args = parser.parse_args()
 
     if args.records:
@@ -20,6 +23,13 @@ def main():
 
         print("\n📗 A Records:")
         print("\n".join(record_lookup.get_a(args.domain)))
+   
+    if args.enum:
+        print(f"\n🌐 Enumerating subdomains for {args.domain}...\n")
+        if not args.wordlist:
+            print("[!] Please provide a wordlist with --wordlist")
+        else:
+            subdomain_enum.enum_subdomains(args.domain, args.wordlist)
 
 if __name__ == "__main__":
     main()
