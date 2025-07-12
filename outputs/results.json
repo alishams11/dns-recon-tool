@@ -24,5 +24,130 @@
                 "96.7.128.198"
             ]
         }
+    },
+    {
+        "timestamp": "2025-07-11 22:27:22",
+        "data": {
+            "domain": "fakeeeedomain.xyz",
+            "type": "records",
+            "NS": [
+                "[!] NS record not available."
+            ],
+            "MX": [
+                "[!] MX record not available."
+            ],
+            "TXT": [
+                "[!] TXT record not available."
+            ],
+            "A": [
+                "[!] A record not available."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-07-12 11:00:56",
+        "data": {
+            "domain": "openai.com",
+            "type": "records",
+            "NS": [
+                "ns1-02.azure-dns.com.",
+                "ns2-02.azure-dns.net.",
+                "ns3-02.azure-dns.org.",
+                "ns4-02.azure-dns.info."
+            ],
+            "MX": [
+                "1 aspmx.l.google.com.",
+                "5 alt1.aspmx.l.google.com.",
+                "10 alt3.aspmx.l.google.com.",
+                "5 alt2.aspmx.l.google.com.",
+                "10 alt4.aspmx.l.google.com."
+            ],
+            "TXT": [
+                "atlassian-domain-verification=xdHUKPdNqeX/XU/VMyGIRWfzqvhwWmcHR1DhX2J3JllvjIY3A0Aw9Ctst0DXGIgt",
+                "whimsical=a3593eda7e8523a75b01fd953cac04549faefe0c",
+                "hiAwXiKX20HcM9FtFK90WRyUFLSV1w",
+                "notion-domain-verification=GZFdn3LQ77QuL3XKYZT6BmKDkFfmbiAorjzDIdvLRd6",
+                "uber-domain-verification=77dfb7a6-1534-4c1b-a4e2-ba173fa8e9a3",
+                "ms-domain-verification=a14381d7-1e61-4cbf-97fa-4ac14336f0cf",
+                "airtable-verification=dea7eaaa4d90e623ec30a9b2fa12ca5f",
+                "miro-verification=0ee819554f4ff63f853affdf30d1cf76a15c6846",
+                "linear-domain-verification=83vxugur897f",
+                "dropbox-domain-verification=mra9n6toqbqj",
+                "google-site-verification=BDCE3pqO3BG5T5jWaEmQl10f5gqe3GAXgjyV0pmA5Jo",
+                "apple-domain-verification=EgaXvYuVUgRwJTk3",
+                "ZOOM_verify_Ji3VecODDwjBgU1GccqGAC",
+                "calendly-site-verification=fBZScJDPHrHKIWIb9dKdryZqPPcCkxGISR8z5xSdX",
+                "google-site-verification=dU3pms6hgznfQnTCxkcq6P4jGjd8LMra0v429l4oElA",
+                "stripe-verification=b1d42b65d1782470604a6dbb360e9dfe8bd7426974e5110605e86b22d945288d",
+                "docker-verification=e315e0c2-f866-4bec-ac0c-844fa287bbec",
+                "atlassian-domain-verification=Q2BUDjXbr3zZaNROQ1MyCjvItM31fbzhL/GR5YEn96BAAyQzrQfkxaxxWC2qj/s5",
+                "tukj3psjdk",
+                "twilio-domain-verification=c7745eae53aa58c5874d7a8508c510bc",
+                "mgverify=f29e71cd4ae9a75b08b8a6ad86f71bc2c60d4f54f30a9b48bca69aacb1136026",
+                "MS=ms50231473",
+                "canva-site-verification=3pgWM7c4EwmBo5rsy9b2Mg",
+                "wrike-verification=NjMwNjgwMjo0NmU2YjQ1NjgzNGJkN2M3MmYwNWUyMTNhOWUwOGY0OTQxYjBlNWJmZTEwYjYzOWU5MDNlMDlkYzAxNGZlZDRh",
+                "uber-domain-verification=faf07776-4ec9-4fd0-9ac5-2a6f8c514318",
+                "v=spf1 include:_spf.google.com include:spf.protection.outlook.com include:8050860.spf04.hubspotemail.net include:mktomail.com -all",
+                "jamf-site-verification=2ysWIpJrXkO40kW1SNc8Qg"
+            ],
+            "A": [
+                "104.18.33.45",
+                "172.64.154.211"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-07-12 11:07:10",
+        "data": {
+            "domain": "openai.com",
+            "type": "records",
+            "NS": [
+                "ns1-02.azure-dns.com.",
+                "ns2-02.azure-dns.net.",
+                "ns3-02.azure-dns.org.",
+                "ns4-02.azure-dns.info."
+            ],
+            "MX": [
+                "1 aspmx.l.google.com.",
+                "5 alt1.aspmx.l.google.com.",
+                "10 alt3.aspmx.l.google.com.",
+                "5 alt2.aspmx.l.google.com.",
+                "10 alt4.aspmx.l.google.com."
+            ],
+            "TXT": [
+                "atlassian-domain-verification=xdHUKPdNqeX/XU/VMyGIRWfzqvhwWmcHR1DhX2J3JllvjIY3A0Aw9Ctst0DXGIgt",
+                "whimsical=a3593eda7e8523a75b01fd953cac04549faefe0c",
+                "hiAwXiKX20HcM9FtFK90WRyUFLSV1w",
+                "notion-domain-verification=GZFdn3LQ77QuL3XKYZT6BmKDkFfmbiAorjzDIdvLRd6",
+                "uber-domain-verification=77dfb7a6-1534-4c1b-a4e2-ba173fa8e9a3",
+                "ms-domain-verification=a14381d7-1e61-4cbf-97fa-4ac14336f0cf",
+                "airtable-verification=dea7eaaa4d90e623ec30a9b2fa12ca5f",
+                "miro-verification=0ee819554f4ff63f853affdf30d1cf76a15c6846",
+                "linear-domain-verification=83vxugur897f",
+                "dropbox-domain-verification=mra9n6toqbqj",
+                "google-site-verification=BDCE3pqO3BG5T5jWaEmQl10f5gqe3GAXgjyV0pmA5Jo",
+                "apple-domain-verification=EgaXvYuVUgRwJTk3",
+                "ZOOM_verify_Ji3VecODDwjBgU1GccqGAC",
+                "calendly-site-verification=fBZScJDPHrHKIWIb9dKdryZqPPcCkxGISR8z5xSdX",
+                "google-site-verification=dU3pms6hgznfQnTCxkcq6P4jGjd8LMra0v429l4oElA",
+                "stripe-verification=b1d42b65d1782470604a6dbb360e9dfe8bd7426974e5110605e86b22d945288d",
+                "docker-verification=e315e0c2-f866-4bec-ac0c-844fa287bbec",
+                "atlassian-domain-verification=Q2BUDjXbr3zZaNROQ1MyCjvItM31fbzhL/GR5YEn96BAAyQzrQfkxaxxWC2qj/s5",
+                "tukj3psjdk",
+                "twilio-domain-verification=c7745eae53aa58c5874d7a8508c510bc",
+                "mgverify=f29e71cd4ae9a75b08b8a6ad86f71bc2c60d4f54f30a9b48bca69aacb1136026",
+                "MS=ms50231473",
+                "canva-site-verification=3pgWM7c4EwmBo5rsy9b2Mg",
+                "wrike-verification=NjMwNjgwMjo0NmU2YjQ1NjgzNGJkN2M3MmYwNWUyMTNhOWUwOGY0OTQxYjBlNWJmZTEwYjYzOWU5MDNlMDlkYzAxNGZlZDRh",
+                "uber-domain-verification=faf07776-4ec9-4fd0-9ac5-2a6f8c514318",
+                "v=spf1 include:_spf.google.com include:spf.protection.outlook.com include:8050860.spf04.hubspotemail.net include:mktomail.com -all",
+                "jamf-site-verification=2ysWIpJrXkO40kW1SNc8Qg"
+            ],
+            "A": [
+                "104.18.33.45",
+                "172.64.154.211"
+            ]
+        }
     }
 ]

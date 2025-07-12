@@ -1,28 +1,33 @@
 
-A simple DNS reconnaissance tool written in Python to gather DNS records and enumerate subdomains.
+# 🔍 DNS Recon Tool
 
-## 🎯 Features
+A Python-based tool to enumerate DNS records and brute-force subdomains.
 
-- NS, A, MX, TXT record lookup
-- Brute-force subdomain enumeration using wordlists
-- Export results to JSON
-- Lightweight and CLI-based
+---
 
-## 📦 Project Structure
+## ✨ Features
 
+- Extract NS, MX, TXT, A records
+- Brute-force subdomains from wordlist
+- Save results to `outputs/results.json`
+- Error handling for NXDOMAIN, NoAnswer, Timeout
 
-dns-recon-tool/
-├── scanner/ # Core modules
-├── outputs/ # JSON output results
-├── wordlists/ # Custom wordlists
-├── screenshots/ # CLI screenshots
-├── main.py # Main CLI script
-├── requirements.txt # Dependencies
-└── README.md # Documentation
+---
 
-
-## 🚀 Installation
+## 📦 Usage
 
 ```bash
-pip install -r requirements.txt
+python3 main.py -d example.com --records
+python3 main.py -d example.com --enum --wordlist wordlists/subdomains.txt
+
+
+#📁 Output Example
+
+Results are saved in outputs/results.json
+Sample CLI output:
+
+
+#⚙️ Requirements
+
+pip install dnspython
 
